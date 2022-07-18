@@ -53,8 +53,8 @@ Prebook Part
 .logo-part{
     margin: 50px 160px;
     padding: 20px;
-    border-top: 1px solid #ebebeb;
-    border-bottom: 1px solid #ebebeb;
+    border-top: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
 }
 .logos{
     display: flex;
@@ -63,9 +63,7 @@ Prebook Part
     gap: 50px;
 }
 /* populer colection Start */
-.collection-parts{
-    
-}
+
 .collection-part{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -85,7 +83,7 @@ Prebook Part
     text-align: center;
     margin-top: 100px;
 }
-.collection-details p, span{
+.collection-details p{
     width: 300px;
     margin-top: 0;
     color: #787885;
@@ -135,7 +133,8 @@ Prebook Part
 }
 /* footer design starts here */
 .end-part{
-    background-color: black;
+    background-color: #0A0826;
+    padding: 50px;
 }
 .end-details{
     text-align: center;
@@ -146,4 +145,5 @@ Prebook Part
 }
 .end-details p{
     margin: 0;
+    font-size: 10px;
 }
