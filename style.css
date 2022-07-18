@@ -4,6 +4,7 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
     font-family: 'Poppins', sans-serif;
     background-color: #FFFFFF;
+    margin: 0;
 }
 .container{
     margin: auto 120px;
