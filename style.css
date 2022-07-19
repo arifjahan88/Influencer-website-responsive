@@ -103,8 +103,9 @@ Prebook Part
 }
 .more-details{
     color: rgba(224, 44, 109, 0.87);
-    text-align: end;
+    float: right;
     margin-right: 10px;
+    text-decoration: none;
 }
 .more-details i{
     color: rgba(224, 44, 109, 0.87);
@@ -150,4 +151,52 @@ Prebook Part
 .end-details p{
     margin: 0;
     font-size: 10px;
+}
+/* Media queries Start Here */
+@media only screen and (max-width: 687px) {
+    .container{
+        margin: 0;
+    }
+    .prebook-part{
+        flex-direction: column-reverse;
+    }
+    .prebook-part img{
+        width: 300px;
+    }
+    .left-prebook{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .collection-part{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .feature-products{
+        margin: 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+    .products-image img{  
+        width: 300px; 
+    }
+    .product-details{
+        margin: 20px; 
+        width: 350px;
+        text-align: center;
+    }
+    .product-details p{
+        margin: 10px;
+        padding-left: 15px;
+        width: 300px;
+        text-align: center;
+    }
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    
 }
