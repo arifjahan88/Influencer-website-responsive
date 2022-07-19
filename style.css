@@ -196,7 +196,14 @@ Prebook Part
     .logos{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
+        justify-content: center;
     }
-    
-    
+    .logo-part{
+        margin: 0;
+        padding: 0;
+        width: 100px;
+    }
+    .logo-part img{
+        width: 60px;
+    }
 }
